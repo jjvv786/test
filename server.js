@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 // const cors = require('cors')
 
 const PORT=process.env.PORT
-const MONGO_URL='mongodb+srv://yuraj:yuraj@cluster0.qykbm4d.mongodb.net/?retryWrites=true&w=majority'
+const MONGO_URL='mongodb+srv://yuraj:<>@cluster0.qykbm4d.mongodb.net/?retryWrites=true&w=majority'
 
 
 const message_schema = mongoose.Schema({
